@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 from enum import Enum, unique
-Month = Enum('Month', ('Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov'.'Dec'))
+
 @unique
 class Weekday(Enum):
     Sun = 0 # Sun的value被设为0
@@ -22,5 +23,6 @@ print('day1 == Weekday(1) ?', day1 == Weekday(1))
 for name, member in Weekday.__members__.items():
     print(name, '=>', member)
 
-for name, member in Month.__members__.itmes():
+Month = Enum('Month', ('Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'))
+for name, member in Month.__members__.items():
     print(name, '=>', member, ',', member.value)
