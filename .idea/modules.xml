@@ -3,6 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/../../python/chatroom/.idea/chatroom.iml" filepath="$PROJECT_DIR$/../../python/chatroom/.idea/chatroom.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lianjia_suzhou/.idea/lianjia_suzhou.iml" filepath="$PROJECT_DIR$/lianjia_suzhou/.idea/lianjia_suzhou.iml" />
+      <module fileurl="file://$USER_HOME$/PycharmProjects/mysprider/.idea/mysprider.iml" filepath="$USER_HOME$/PycharmProjects/mysprider/.idea/mysprider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/python3.iml" filepath="$PROJECT_DIR$/.idea/python3.iml" />
     </modules>
   </component>
 </project>
